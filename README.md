@@ -1,29 +1,29 @@
-# Tugas W04 PHP
-Membuat forum sederhana dengan php (tanpa framework) dan database.
-Halaman ini dapat diakses di [zunanalifkri.com/forum](https://zunanalfikri.com/forum).
+# PHP Simple Forum
+Build simple page forum using vanilla PHP, mysql, and bootstrap v4.
+This simple forum can open in [zunanalifkri.com/forum](https://zunanalfikri.com/forum).
 
 ## Dependencies
 1. PHP v7.3.11
 2. MySQL
-3. Bootstrap
+3. Bootstrap v4
 
-## Struktur folder
+## Folder Structure
 ### `forum`
-berisi page berkaitan dengan penambahan post, dan komentar.
+Contains forum page for add post and add comments.
 ### `register`
-berisi page untuk registrasi akun.
+Contains a page for account registration.
 ### `index.php dan login.php`
-berisi page untuk login.
+Contains login page.
 ### `config.php`
-berirsi configurasi untuk koneksi ke database.
+Contains configuration for database connection.
 ### `db.sql`
-berisi database sample.
+SQL dump database.
 
-## Cara Menjalankan
-1. Clone repository
-2. Import sql dan sesuaikan configurasi password dan username di config.php
-3. Jalankan `php -S localhost:8000`
-4. Buka [localhost:8000](http://localhost:8000) di browser.
+## How to Run
+1. Clone this repository
+2. Import sql and change db configuration in config.php.
+3. Run `php -S localhost:8000`
+4. Open [localhost:8000](http://localhost:8000) in your browser.
 
 ## Author
 Muhammad Zunan Alfikri | 13518019
